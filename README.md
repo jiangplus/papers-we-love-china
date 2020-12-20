@@ -10,7 +10,7 @@ Papers We Love 是一个全球性的社区网络，主要活动是分享计算�
 
 ## 2020-12-20
 
-由 @张茄子，@Gonnyy 分享他们在 Intel Optane 上设计高性能 KV 相关的主题，并有 Persistent Memory 相关的圆桌讨论。
+由 [张茄子](https://github.com/shanzi)，[Gonnyy](https://github.com/Lqlsoftware) 分享他们在 Intel Optane 上设计高性能 KV 相关的主题，并有 Persistent Memory 相关的圆桌讨论。
 
 ## 2020-11-29
 
@@ -19,7 +19,7 @@ Scalable Causal Consistency for Wide-Area Storage with COPS
 
 马天猫分享关于分布式系统中因果一致性（Casual+）的论文 COPS.
 
-分享人：马天猫，在读 PhD，字节跳动基础架构实习生。
+分享人：[马天猫](https://github.com/MiracleMa)，在读 PhD，字节跳动基础架构实习生。
 
 强一致性（linearizable，sequential）的分布式系统在全球多数据中心的场景下，可用性和延迟很难满足许多应用的需求。CMU 在 sosp11 发表的 COPS，面向全球多数据中心场景，探索在保证高可用，低延迟，可扩展的场景下最高的一致性级别，提出了 Causal+ 的一致性级别，并设计了分布式 KV 存储系统 COPS.
 
@@ -30,25 +30,33 @@ Scalable Causal Consistency for Wide-Area Storage with COPS
 Andromeda: Performance, Isolation, and Velocity
 at Scale in Cloud Network Virtualization
 
-由 SmartX 的张凯分享关于 Google Cloud 的网络架构，论文发表于 NSDI'18.
+由 SmartX 的[张凯](http://github.com/kylezh)分享关于 Google Cloud 的网络架构，论文发表于 NSDI'18.
 
 [论文链接](https://www.usenix.org/system/files/conference/nsdi18/nsdi18-dalton.pdf)
 
 ## 2020-06-14
 
-由 @jiangplus 分享 Apple 的分布式数据库 FoundationDB 的架构。
+FoundationDB 技术架构
+
+由 [jiangplus](https://github.com/jiangplus) 分享 Apple 的分布式数据库 FoundationDB 的架构。
+
+[论文链接](https://arxiv.org/pdf/1901.04452)
+
+[Technical Overview of FoundationDB](https://www.youtube.com/watch?v=EMwhsGsxfPU)
+
+[Cross-Region Replication Options with FoundationDB](https://www.youtube.com/watch?v=fN25ERr5nck)
 
 ## 2020-05-10
 
 MapReduce: Simplified Data Processing on Large Clusters
 
-由 要没时间了 分享 Google MapReduce 的经典论文。
+由 [要没时间了](https://github.com/fengzixu) 分享 Google MapReduce 的经典论文。
 
 [论文链接](https://research.google.com/archive/mapreduce-osdi04.pdf)
 
 The Snowflake Data Warehouse
 
-由 @jiangplus 分享，关于云原生数据仓库的设计。
+由 [jiangplus](https://github.com/jiangplus) 分享，关于云原生数据仓库的设计。
 
 [论文链接](http://info.snowflake.net/rs/252-RFO-227/images/Snowflake_SIGMOD.pdf)
 
@@ -56,7 +64,7 @@ The Snowflake Data Warehouse
 
 PacificA: Replication in Log-Based Distributed Storage Systems 
 
-分享人：张凯，SmartX
+分享人：[张凯](http://github.com/kylezh)，SmartX
 
 PacificA是微软为大规模分布式存储系统开发的一个通用复制框架，该框架简单，实用，提供强一致性，并且可以适配不同的复制策略。它对于我们理解分布式系统的强一致性，构建工程化的分布式系统有很好的指导意义。
 
@@ -64,7 +72,7 @@ PacificA是微软为大规模分布式存储系统开发的一个通用复制框
 
 Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases 
 
-分享人：@jiangplus
+分享人：[jiangplus](https://github.com/jiangplus)
 
 Amazon Aurora 云原生数据库服务的论文，有独特的数据复制和云原生设计，并且也是计算存储分离和 share-everything 架构的经典。
 
