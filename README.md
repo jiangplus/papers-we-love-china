@@ -2,7 +2,7 @@
 
 Papers We Love China is a open group with a focus on reading and sharing computer science papers. It is also a place for people to share their ideas and experiences of building complex computing systems.
 
-Here is the curated list of the historic talks.
+Here is the curated list of the historical talks.
 
 Papers We Love 是一个全球性的社区网络，主要活动是分享计算机科学和相关领域的经典论文和前沿研究，包括但不限于操作系统，分布式系统，数据库，网络通讯，算法，逻辑等领域。我们欢迎不同背景但对此主题感兴趣的工程师，研究员，爱好者共同阅读、分享和讨论这些基础研究工作及其应用实践。
 
@@ -11,6 +11,28 @@ Papers We Love 是一个全球性的社区网络，主要活动是分享计算�
 ## 2020-12-20
 
 由 [张茄子](https://github.com/shanzi)，[Gonnyy](https://github.com/Lqlsoftware) 分享他们在 Intel Optane 上设计高性能 KV 相关的主题，并有 Persistent Memory 相关的圆桌讨论。
+
+相关资源
+
+Gonny 项目的开源代码
+
+https://github.com/Lqlsoftware/KiD/blob/main/doc/DESIGN.md
+
+研究性能分析因果性的工具
+
+https://arxiv.org/pdf/1608.03676v1.pdf
+
+https://github.com/plasma-umass/coz
+
+另一个 PMEM 之上的高性能开源 KV
+
+https://github.com/baotonglu/dash
+
+https://github.com/LPD-EPFL/CLHT
+
+https://youtu.be/JZE3_0qvrMg
+
+https://youtu.be/koTf7u0v41o
 
 ## 2020-11-29
 
