@@ -41,7 +41,7 @@ Scalable Causal Consistency for Wide-Area Storage with COPS
 
 马天猫分享关于分布式系统中因果一致性（Casual+）的论文 COPS.
 
-分享人：[马天猫](https://github.com/MiracleMa)，在读 PhD，字节跳动基础架构实习生。
+分享人：[马天猫](https://github.com/MiracleMa)，在读 PhD。
 
 强一致性（linearizable，sequential）的分布式系统在全球多数据中心的场景下，可用性和延迟很难满足许多应用的需求。CMU 在 sosp11 发表的 COPS，面向全球多数据中心场景，探索在保证高可用，低延迟，可扩展的场景下最高的一致性级别，提出了 Causal+ 的一致性级别，并设计了分布式 KV 存储系统 COPS.
 
